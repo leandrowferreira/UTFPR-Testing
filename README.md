@@ -54,7 +54,7 @@ A relação de testes completa é a que segue:
     public function testInvalidMaximumLength();
 ```
 
-Para mais informações, verifique os arquivos com o código-fonte dos testes em [EquivalenceIdentifierTest.php](./tests/equivalenceClasses/equivalenceIdentifierTest.php) e [LimitIdentifierTest.php](./tests/limitValue/LimitIdentifierTest.php).
+Para mais informações, verifique os arquivos com o código-fonte dos testes em [EquivalenceIdentifierTest.php](./tests/equivalenceClasses/EquivalenceIdentifierTest.php) e [LimitIdentifierTest.php](./tests/limitValue/LimitIdentifierTest.php).
 ## O relatório de cobertura e o resultado dos testes
 
 Após as correções do código-fonte original, foram gerados os resultados necessários para a conclusão dos testes solicitados na atividade.
