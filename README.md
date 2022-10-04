@@ -26,6 +26,35 @@ Este código está publicado no [Github](https://github.com/leandrowferreira/UTF
 
 Foi utilizado o [PHPUnit](https://phpunit.de/), a mais difundida ferramenta de testes unitários (e de integração) para o ecossistema PHP. Foi necessário utilizar uma extensão da linguagem chamada [XDEBUG](https://xdebug.org/) para que fosse possível gerar o relatório de cobertura. A IDE utilizada foi o [Visual Studio Code](https://code.visualstudio.com/).
 
+## Os testes
+
+Os testes realizados foram divididos em duas *suites*, conforme o fragmento do arquivo `phpunit.xml` apresentado abaixo:
+
+```xml
+    <testsuites>
+        <testsuite name="equivalence-classes">
+            <directory>tests/equivalenceClasses</directory>
+        </testsuite>
+        <testsuite name="limit-value">
+            <directory>tests/limitValue</directory>
+        </testsuite>
+    </testsuites>
+```
+
+A relação de testes completa é a que segue:
+
+```php
+    public function testValidStartingLetter();
+    public function testInvalidStartingLetter();
+    public function testValidLettersAndDigits();
+    public function testInvalidLettersAndDigits();
+    public function testValidMinimumLength();
+    public function testInvalidMinimumLength();
+    public function testValidMaximumLength();
+    public function testInvalidMaximumLength();
+```
+
+Para mais informações, verifique os arquivos com o código-fonte dos testes em [EquivalenceIdentifierTest.php](./tests/equivalenceClass/EquivalenceIdentifierTest.php) e [LimitIdentifierTest.php](./tests/limitValue/LimitIdentifierTest.php).
 ## O relatório de cobertura e o resultado dos testes
 
 Após as correções do código-fonte original, foram gerados os resultados necessários para a conclusão dos testes solicitados na atividade.
