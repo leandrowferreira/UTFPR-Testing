@@ -1,0 +1,18 @@
+{
+    "name": "leandro/silly-pascal",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Leandro\\SillyPascal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leandro Ferreira",
+            "email": "leandroafferreira@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
