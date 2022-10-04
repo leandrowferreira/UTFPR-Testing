@@ -20,8 +20,25 @@ O arquivo original, fornecido em Java (disponível [aqui](./00_extras/Identifier
 
 Porém, após a realização dos testes, os devidos ajustes foram realizados no código-fonte para que os testes passassem.
 
-Este código está publicado no Github em
+Este código está publicado no [Github](https://github.com/leandrowferreira/UTFPR-Testing).
 
 ## As ferramentas
 
 Foi utilizado o [PHPUnit](https://phpunit.de/), a mais difundida ferramenta de testes unitários (e de integração) para o ecossistema PHP. Foi necessário utilizar uma extensão da linguagem chamada [XDEBUG](https://xdebug.org/) para que fosse possível gerar o relatório de cobertura. A IDE utilizada foi o [Visual Studio Code](https://code.visualstudio.com/).
+
+## O relatório de cobertura e o resultado dos testes
+
+Após as correções do código-fonte original, foram gerados os resultados necessários para a conclusão dos testes solicitados na atividade.
+
+### Relatório de cobertura
+
+O PHPUnit gerou, com a ajuda do XDEBUG, o relatório de cobertura disponível no diretório [coverage](./coverage), e os prints estão disponíveis a seguir:
+
+![Cobertura total](./coverage/SillyPascal_coverage_index.png)
+![Cobertura da classe](./coverage/SillyPascal_coverage_Identifier.php.png)
+
+### Resultado
+
+O PHPUnit gerou a saída padrão usando sua CLI, como apresentado abaixo:
+
+![Saída da CLI do PHPUnit](./coverage/console_output.png)
