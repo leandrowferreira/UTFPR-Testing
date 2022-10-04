@@ -42,3 +42,7 @@ O PHPUnit gerou, com a ajuda do XDEBUG, o relatório de cobertura disponível no
 O PHPUnit gerou a saída padrão usando sua CLI, como apresentado abaixo:
 
 ![Saída da CLI do PHPUnit](./coverage/console_output.png)
+
+## Conclusão
+
+Todos os arquivos também foram enviados pelo LMS.
